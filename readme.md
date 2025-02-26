@@ -154,7 +154,7 @@ This script expands on the single-file translation to handle multiple HTML files
 ## ⚠️ Important Notes and Considerations
 
 *   **API Key Security:**  **Never commit your API key directly to your repository.**  Consider using environment variables or a more secure configuration method, especially if you plan to share your code or use it in a production environment.
-*   **Google Gemini API Costs:**  Be aware of the usage costs associated with the Google Gemini API.  Check Google Cloud documentation for pricing details.  The `gemini-2.0-flash-thinking-exp-01-21` model might have different pricing than other Gemini models.
+*   **Google Gemini API Costs:**  Be aware of the usage costs associated with the Google Gemini API.  Check Google Cloud documentation for pricing details.  The `gemini-2.0-flash-thinking-exp-01-21` model might have different pricing than other Gemini models. (In practice, in Feb 2025 I was able to translate ~30 long documents into 5 separate languages for free).
 *   **Rate Limiting:**  The scripts include a delay to help avoid rate limiting. However, if you are processing a large number of files, you might still encounter rate limits. Monitor your API usage and adjust the `time.sleep()` delay in `gemini_script_all_loop.py` if needed.
 *   **HTML Complexity:**  While the scripts are designed to handle standard HTML, very complex or malformed HTML might lead to unexpected translation results.  Always review the translated files to ensure accuracy and proper formatting.
 *   **Experimental Model:** The script uses `gemini-2.0-flash-thinking-exp-01-21`, which is described as an experimental model.  The behavior and availability of experimental models can change.  You might want to consider using a more stable Gemini model for production use cases in the future.
@@ -169,7 +169,7 @@ If you have any questions or need assistance, feel free to [get in touch](www.cr
 
 ## 📜 License
 
-[Choose a license - e.g., MIT License]
+MIT License
 
 ---
 

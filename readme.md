@@ -174,5 +174,3 @@ MIT License
 ---
 
 **Happy Translating!** ✨
-```
-# MEGA_GOOGLE_TRANSLATE

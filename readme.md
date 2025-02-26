@@ -1,9 +1,14 @@
+[![CraigDoesData][logo]][link]
+
+[logo]: https://github.com/thecraigd/Python_SQL/raw/master/img/logo.png
+[link]: https://www.craigdoesdata.com/
+
 
 # MEGA GOOGLE TRANSLATE
 
 **Translate your HTML files to multiple languages with the power of Google Gemini!**
 
-Welcome to **MEGA GOOGLE TRANSLATE**, a repository containing Python scripts designed to automate the translation of HTML files using the cutting-edge Google Gemini API, specifically leveraging the `gemini-2.0-flash-thinking-exp-01-21` model (experimental and fast!).  This project is perfect for anyone looking to quickly internationalize their web content or documents programmatically.
+Welcome to **MEGA GOOGLE TRANSLATE**, a repository containing Python scripts designed to automate the translation of HTML files using the cutting-edge Google Gemini API, specifically leveraging the `gemini-2.0-flash-thinking-exp-01-21` model (experimental and fast! I tried the OpenAI and Anthropic APIs, but neither of them would accept HTML files of the size I needed to translate. Gemini did it for free!).  This project is perfect for anyone looking to quickly internationalize their web content or documents programmatically.
 
 This repository contains two main scripts:
 
